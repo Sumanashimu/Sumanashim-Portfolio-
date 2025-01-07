@@ -32,7 +32,6 @@ a, .btn {
   height: 2rem;
 }
 
-
 .linkedin-icon a {
   text-decoration: none;
   color: white;
@@ -106,9 +105,9 @@ a, .btn {
 
 .btn {
   display: inline-block;
-  padding: 0.8rem 1.5rem;
+  padding: 0.8rem 1.2rem;
   margin: 1rem 0.5rem;
-  border-radius: 25px;
+  border-radius: 20px;
   font-weight: bold;
   background-color: #b9846a; /* Terracotta color */
   color: white;
@@ -344,6 +343,7 @@ a, .btn {
 .email-icon, .linkedin-icon {
   height: 2.5rem;
 }
+
 /* Hobbies and Volunteer Work container */
 .hobby-volunteer-container {
   display: flex; /* Flexbox for side-by-side layout */
@@ -462,5 +462,106 @@ a, .btn {
 .awards-section:hover, .publications-section:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced hover shadow */
+}             
+#current-complete-projects {
+  padding: 20px;
+  background-color: #f4f4f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 40px auto;
+  text-align: left;
+  max-width: 750px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#current-complete-projects h2 {
+
+  font-size: 22px;
+  gap: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+#current-complete-projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#current-complete-projects li {
+  margin-bottom: 15px;
+  line-height: 1.8;
+  color: #444;
+}
+
+#current-complete-projects li strong {
+  font-weight: bold;
+  color: #000;
+}
+#current-complete-projects ul li {
+  margin-bottom: 16px;
+  line-height: 1.5;
+  color: #444;
+  display: flex;
+  align-items: center; /* Align icon with text */
+}
+
+#current-complete-projects li i {
+  margin-right: 15px;
+  color: #7ca13f; /* Icon color */
+  font-size: 1em;
+}
+.certifications {
+  font-family: 'Roboto', sans-serif;
+  margin: 20px 0;
+}
+
+.certifications h2 {
+  font-size: 2em;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  /*border-bottom: 2px solid #7ca13f; /* Underline in green */
+  display: inline-block;
+}
+.certifications ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+}
+
+.certifications li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px; /* Space between icon and text */
+}
+
+.certifications i {
+  font-size: 2rem;
+  color: #7ca13f; /* Green icon */
+  margin-top: 5px;
+}
+
+.certifications strong {
+  font-size: 1.5em;
+  color: #2a2a2a; /* Strong emphasis with dark gray */
+}
+
+
+.certifications p {
+  margin: 5px 0;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  color: #4d4d4d;
+}
+
+
+.certifications p b {
+  color: #7ca13f; /* Highlighted text in green */
+}
+
+
+.certifications p b {
+  color: #7ca13f; /* Highlighted bold text */
 }
 
